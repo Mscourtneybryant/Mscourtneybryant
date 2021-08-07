@@ -7,16 +7,24 @@ var i = prompt('What year were you born?');
 var birthYear= "1992"
 console.log('The users birth year is 199' + birthYear.charAt(3))
 
-count = 0;
+
 found = false;
 
 for(let i = 0; i < arr.length; i++){
-  if(arr<=birthYear[i]){
+  if(birthYear == arr[i]){
+    console.log('The number is found in the ' + (i + 1) + ' position.')
     found=true;
-    count++
+    break;
   }
 }
 if (!found) {
   console.log('The users birth year is outside of the 90s range.')
 }
-console.log('The number of times ' + birthYear + ' appears is' + arr.indexOf())
+count = 0;
+
+for(var r = 0; r < birthYear.length; ++r){
+    if(birthYear[r] == 1992)
+       count++
+    
+console.log('The number of times ' + birthYear + ' appears is ' + count)
+}
