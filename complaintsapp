@@ -1,1 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <body>
+    <head>
+        <link rel="stylesheet" href="styless.css"/>
+        <script defer src="app.js"></script>
+        </head>
+        
+        
+
+
+<h1>Where Can We Cause Trouble Today?</h1>
+
+<p>
+    <input type = "text" placeholder = "# OF COMPLAINTS...">
+
+
+<button onclick = "brooklynCompaints">Brooklyn</button> 
+<button onclick = "brooklynCompaints">Manhattan</button>
+<button onclick = "brooklynCompaints">Queens</button>
+<button onclick = "brooklynCompaints">Bronx</button>
+<button onclick = "brooklynCompaints">Staten Island</button>
+</p>
+
+
+
+    </body>
+</html>
 
